@@ -44,7 +44,7 @@ section#login {
     transition-timing-function: ease;
 }
 
-sectio#login > divimagem {
+section#login > div#imagem {
     background:#5f2c82 url(../imagens/Abobora.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
@@ -54,4 +54,13 @@ sectio#login > divimagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }
